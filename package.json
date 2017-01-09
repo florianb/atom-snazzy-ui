@@ -1,7 +1,7 @@
 {
   "name": "atom-snazzy-ui",
   "theme": "ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An elegant not so bright snazzy-ui-theme for Atom, as counterpart to atom-snazzy-syntax",
   "keywords": [
     "ui",
