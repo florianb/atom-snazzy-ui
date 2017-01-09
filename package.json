@@ -1,0 +1,15 @@
+{
+  "name": "atom-snazzy-ui",
+  "theme": "ui",
+  "version": "1.0.0",
+  "description": "An elegant not so bright snazzy-ui-theme for Atom, as counterpart to atom-snazzy-syntax",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "repository": "https://github.com/florianb/atom-snazzy-ui",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
