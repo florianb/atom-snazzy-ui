@@ -1,0 +1,39 @@
+.scrollbars-visible-always {
+  /deep/ ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  /deep/ ::-webkit-scrollbar-track,
+  /deep/ ::-webkit-scrollbar-corner {
+    background: none;
+  }
+
+  /deep/ ::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: lighten(@very-dark-gray, 8%);
+    background-clip: content-box;
+
+    &:active,
+    &:hover {
+      background: lighten(@very-dark-gray, 12%);
+    }
+  }
+
+  atom-text-editor,
+  .settings-view {
+    /deep/ ::-webkit-scrollbar-track,
+    /deep/ ::-webkit-scrollbar-corner {
+      background: none;
+    }
+
+    /deep/ ::-webkit-scrollbar-thumb {
+      background: lighten(@very-dark-gray, 8%);
+
+      &:active,
+      &:hover {
+        background: lighten(@very-dark-gray, 12%);
+      }
+    }
+  }
+}
