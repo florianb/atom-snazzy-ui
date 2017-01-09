@@ -1,6 +1,6 @@
 # atom-snazzy-ui theme
 
-> An elegant _not so bright_ snazzy-ui-theme for Atom -- based on https://github.com/sindresorhus/iterm2-snazzy nd as supplement of https://atom.io/themes/atom-snazzy-syntax
+> An elegant _not so bright_ snazzy-ui-theme for Atom -- based on https://github.com/sindresorhus/iterm2-snazzy and as supplement of https://atom.io/themes/atom-snazzy-syntax
 
 This theme aims for
 
