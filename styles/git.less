@@ -5,8 +5,15 @@
 // Used to color git status
 
 .status          { color: @text-color; }
-.status-added    { color: @snazzy-green-d; } // green
+.status-added    { color: @snazzy-green; } // green
 .status-ignored  { color: @snazzy-4; }  // faded
-.status-modified { color: @snazzy-orange-d; } // orange
-.status-removed  { color: @snazzy-red-d; }   // red
-.status-renamed  { color: @snazzy-blue-d; }    // blue
+.status-modified { color: @snazzy-orange; } // orange
+.status-removed  { color: @snazzy-red; }   // red
+.status-renamed  { color: @snazzy-blue; }    // blue
+
+.tree-view .status          { color: @text-color; }
+.tree-view .status-added    { color: @snazzy-green-d; } // green
+.tree-view .status-ignored  { color: @snazzy-4; }  // faded
+.tree-view .status-modified { color: mix(@snazzy-orange-d, @snazzy-orange); } // orange
+.tree-view .status-removed  { color: mix(@snazzy-red-d, @snazzy-red); }   // red
+.tree-view .status-renamed  { color: mix(@snazzy-blue-d, @snazzy-blue); }    // blue
