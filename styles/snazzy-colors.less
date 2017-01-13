@@ -1,25 +1,60 @@
-@very-light-gray: #f1f1f0; // snazzy-white
-@light-gray: #969896;  // snazzy-dim
-@gray: #79797A;
-@dark-gray: #5A5C5D;
-@very-dark-gray: #1d1f21;  // snazzy-gray
+@snazzy-background: #282A36;
+@snazzy-foreground: #eff0eb;
 
-@cyan: #9aedfe; // snazzy-cyan
-@blue: #57c7ff; // snazzy-blue
-@purple: #ff6ac1; // snazzy-magenta
-@green: #5af78e; // snazzy-green
-@red: #ff5c57; // snazzy-red
-@yellow: #f3f99d; //snazzy-yellow
+@snazzy-dd: darken(@snazzy-background, 40%);
+@snazzy-d: darken(@snazzy-background, 20%);
+@snazzy-0: @snazzy-background;
+@snazzy-1: mix(@snazzy-background, @snazzy-foreground, 90%);
+@snazzy-2: mix(@snazzy-background, @snazzy-foreground, 80%);
+@snazzy-3: mix(@snazzy-background, @snazzy-foreground, 70%);
+@snazzy-4: mix(@snazzy-background, @snazzy-foreground, 60%);
+@snazzy-5: mix(@snazzy-background, @snazzy-foreground, 50%);
+@snazzy-6: mix(@snazzy-background, @snazzy-foreground, 40%);
+@snazzy-7: mix(@snazzy-background, @snazzy-foreground, 30%);
+@snazzy-8: mix(@snazzy-background, @snazzy-foreground, 20%);
+@snazzy-9: mix(@snazzy-background, @snazzy-foreground, 10%);
+@snazzy-10: @snazzy-foreground;
 
-// mixed from snazzy-red & snazzy-yellow
-@orange: #F8AA7A;
-// mixed from snazzy-red & 2 * snazzy-yellow
-@light-orange: #F6C486;
+@snazzy-red: #ff5c57; // snazzy-red
+@snazzy-green: #5af78e; // snazzy-green
+@snazzy-yellow: #f3f99d; //snazzy-yellow
+@snazzy-blue: #57c7ff; // snazzy-blue
+@snazzy-purple: #ff6ac1; // snazzy-magenta
+@snazzy-cyan: #9aedfe; // snazzy-cyan
 
-@dark-blue: #4295BE;
-@dark-cyan: #7FC2D0;
-@dark-purple: #D1579E;
-@dark-green: #42B468;
-@dark-red: #D14C48;
-@dark-orange: #CB8C64;
-@dark-yellow: #DDE38F;
+@snazzy-orange: mix(@snazzy-red, @snazzy-yellow);
+
+@snazzy-red-dd: mix(@snazzy-red, @snazzy-background, 60%);
+@snazzy-red-d: mix(@snazzy-red, @snazzy-background, 80%);
+@snazzy-red-l: mix(@snazzy-red, @snazzy-foreground, 80%);
+@snazzy-red-ll: mix(@snazzy-red, @snazzy-foreground, 60%);
+
+@snazzy-green-dd: mix(@snazzy-green, @snazzy-background, 33%);
+@snazzy-green-d: mix(@snazzy-green, @snazzy-background, 66%);
+@snazzy-green-l: mix(@snazzy-green, @snazzy-foreground, 66%);
+@snazzy-green-ll: mix(@snazzy-green, @snazzy-foreground, 33%);
+
+@snazzy-yellow-dd: mix(@snazzy-yellow, @snazzy-background, 33%);
+@snazzy-yellow-d: mix(@snazzy-yellow, @snazzy-background, 66%);
+@snazzy-yellow-l: mix(@snazzy-yellow, @snazzy-foreground, 66%);
+@snazzy-yellow-ll: mix(@snazzy-yellow, @snazzy-foreground, 33%);
+
+@snazzy-blue-dd: mix(@snazzy-blue, @snazzy-background, 33%);
+@snazzy-blue-d: mix(@snazzy-blue, @snazzy-background, 66%);
+@snazzy-blue-l: mix(@snazzy-blue, @snazzy-foreground, 66%);
+@snazzy-blue-ll: mix(@snazzy-blue, @snazzy-foreground, 33%);
+
+@snazzy-purple-dd: mix(@snazzy-purple, @snazzy-background, 33%);
+@snazzy-purple-d: mix(@snazzy-purple, @snazzy-background, 66%);
+@snazzy-purple-l: mix(@snazzy-purple, @snazzy-foreground, 66%);
+@snazzy-purple-ll: mix(@snazzy-purple, @snazzy-foreground, 33%);
+
+@snazzy-cyan-dd: mix(@snazzy-cyan, @snazzy-background, 33%);
+@snazzy-cyan-d: mix(@snazzy-cyan, @snazzy-background, 66%);
+@snazzy-cyan-l: mix(@snazzy-cyan, @snazzy-foreground, 66%);
+@snazzy-cyan-ll: mix(@snazzy-cyan, @snazzy-foreground, 33%);
+
+@snazzy-orange-dd: mix(@snazzy-orange, @snazzy-background, 33%);
+@snazzy-orange-d: mix(@snazzy-orange, @snazzy-background, 66%);
+@snazzy-orange-l: mix(@snazzy-orange, @snazzy-foreground, 66%);
+@snazzy-orange-ll: mix(@snazzy-orange, @snazzy-foreground, 33%);
